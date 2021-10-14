@@ -33,4 +33,17 @@
     6.  `true` - `Boolean()` alwayas returns true for anything that's not 0, null, undefined, NaN, or empty string.
 15. `==` checks equality and does type conversions, `===` checks equality without performing type conversions.
 
+16. See file.
 
+17. modifyArray should return the array `[2,4,6]`. We create a new array (line 2), loop through each element of the old array (line 3), and push into the new array that element of the old array doubled. 
+18.  See file.
+19. The code should output:
+
+~~~
+1
+4
+3
+2
+~~~
+
+1 comes out first, then 2 is set to come after one second, then 3 is set to come after 0 ms, but 4 comes before 3 because it wasn't set to wait at all. 
